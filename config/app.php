@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://localhost:9000/',
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'key' => 'CHANGE_ME!!!!!!!!!!!!!!!!!!!!!!!',
+    'key' => 'Jt45V5iO1DdG3aO2DVRbXxUUoMvUQ4IB',
 
     'cipher' => 'AES-256-CBC',
 
