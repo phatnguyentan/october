@@ -217,4 +217,6 @@
   'System\\Models\\MailTemplate' => 'modules/system/models/MailTemplate.php',
   'System\\Twig\\Engine' => 'modules/system/twig/Engine.php',
   'System\\Models\\MailLayout' => 'modules/system/models/MailLayout.php',
+  'RainLab\\Translate\\Components\\LocalePicker' => 'plugins/rainlab/translate/components/LocalePicker.php',
+  'RainLab\\Translate\\Components\\AlternateHrefLangElements' => 'plugins/rainlab/translate/components/AlternateHrefLangElements.php',
 );

@@ -1,0 +1,39 @@
+==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="{{ [
+      'bower_components/bootstrap/dist/css/bootstrap.min.css',
+      'assets/vendor/font-awesome/css/font-awesome.min.css',
+      'assets/css/styles.css',
+      'assets/vendor/animate.css/animate.min.css',
+      'assets/vendor/plyr/dist/plyr.css'
+    ]|theme }}" rel="stylesheet">
+    {% styles %}
+
+  </head>
+  <body>
+      <div class="bg-dark-1">
+         {% partial 'yame/navbar' %}
+         {% partial 'yame/slider' %}
+        <section id="page" class="container m-b-3">
+            {% page %}
+        </section>
+      </div>
+    <script src="{{ [
+      'assets/vendor/jquery/dist/jquery.min.js',
+      'assets/vendor/tether/dist/js/tether.min.js',
+      'bower_components/bootstrap/dist/js/bootstrap.bundle.min.js',
+      'assets/vendor/wow/dist/wow.min.js',
+      'assets/vendor/holderjs/holder.min.js',
+      'assets/vendor/plyr/dist/plyr.js',
+      'assets/js/scripts.js'
+    ]|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+  </body>
+</html>

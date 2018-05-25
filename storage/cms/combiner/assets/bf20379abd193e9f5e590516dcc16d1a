@@ -1,0 +1,17 @@
+.bg-dark-1 {
+    background-color: #363636;
+}
+
+.bg-dark-2 {
+    background-color: #1D1D1D;
+}
+
+.navbar-nav>ul>li>a {
+    color: #fafafa;
+    padding: 10px;
+    display: block;
+}
+
+a {
+    font-size: 12px;
+}
